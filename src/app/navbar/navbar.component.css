@@ -17,11 +17,17 @@ body {
 }
 
 .navbar-logo img {
+    display: flex;
+    justify-content: right;
+    align-items: center;
     max-height: 4rem;
+
 }
 
 .navbar-links {
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     gap: 1.4rem;
     margin-left: 2rem;
