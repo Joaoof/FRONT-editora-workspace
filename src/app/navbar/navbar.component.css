@@ -5,7 +5,7 @@
 
 header {
     background-color: #2969bd;
-    box-shadow: 0px 3px 10px #1c4883;
+    /* box-shadow: 0px 3px 10px #1c4883; */
 }
 
 .logo img {
@@ -76,10 +76,12 @@ header {
 @media screen and (max-width: 730px) {
     .nav-bar {
         display: flex;
+        /* width: 100%; */
         justify-content: space-between;
         gap: 1rem;
-        padding: 0.5rem;
-        padding: 1.5rem 4rem;
+        margin: 0 auto;
+        padding-left: .714rem;
+        padding-right: .714rem;
     }
 
     .nav-item {
@@ -96,6 +98,7 @@ header {
 
     .mobile-menu-icon img {
         margin-top: 1.5rem;
+        margin-right: 1.5rem;
     }
 
     .mobile-menu-icon button {
