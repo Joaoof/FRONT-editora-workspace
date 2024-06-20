@@ -60,7 +60,7 @@
     /* margin-left: 100px; */
     height: auto;
     /* box-shadow: 0 5px 10px rgba(0, 0, 0, .2); */
-    border-radius: 5px;
+    /* border-radius: 5px; */
     background: #fff;
     padding: 40px 20px;
     /* border: solid 0.5px #a19a9ab6; */
@@ -92,19 +92,7 @@
     color: rgba(0, 0, 0, 0.54);
 }
 
-/* .box-description {
-    margin: 100px;
-} */
-
-/* .box-container .box .btn {
-    margin-top: 10px;
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    font-size: 17px;
-    border-radius: 5px;
-    padding: 8px 25px;
-} */
+/* .bo
 
 .box-container .box .btn:hover {
     letter-spacing: 1px;
@@ -119,7 +107,7 @@
     width: 250px;
     /* background-color: #f4f4f4; */
     padding: 15px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     /* box-shadow: 0 5px 10px rgba(0, 0, 0, .2); */
 }
 
@@ -236,7 +224,7 @@
         width: 100%;
         height: max-content;
         /* box-shadow: 0 5px 10px rgba(0, 0, 0, .2); */
-        border-radius: 5px;
+        /* border-radius: 5px; */
         background: #fff;
         padding: 40px 20px;
         border: solid 0.5px #a19a9ab6;
@@ -245,7 +233,7 @@
     .box-container {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 0rem;
     }
 
     /* .book-content {
