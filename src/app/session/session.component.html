@@ -14,18 +14,20 @@
         <div class="main-content">
             <div class="box-container">
                 <!-- Livro 1 -->
-                <div class="box">
+                <div class="box" *ngFor="let book">
                     <div class="book-content">
                         <div class="book-image">
-                            <img src="https://editora.ufpe.br/public/presses/2/submission_891_894_coverImage_pt_BR_t.png"
-                                alt="Ícone de um livro (imagem)">
+                            <a routerLink="/books" target="_blank" style="cursor: pointer;">
+                                <img src="https://editora.ufpe.br/public/presses/2/submission_891_894_coverImage_pt_BR_t.png"
+                                    alt="Ícone de um livro (imagem)" (click)="openBookDetail(book.id)">
+                            </a>
                         </div>
                         <div class="book-description">
                             <h2 class="title-categoria">Lançamentos</h2>
-                            <h5>Relações Internacionais</h5>
-                            <p>Descrição sobre Relações Internacionais</p>
+                            <h5>{{ book.title }}</h5>
+                            <p>{{book.description}}</p>
                             <div class="date">
-                                2024
+                                {{book.year}}
                             </div>
                             <!-- <a routerLink="" class="btn">Leia mais</a> -->
                         </div>
@@ -34,8 +36,10 @@
                 <div class="box">
                     <div class="book-content">
                         <div class="book-image">
-                            <img src="https://editora.ufpe.br/public/presses/2/submission_907_910_coverImage_pt_BR_t.png"
-                                alt="Ícone de um livro (imagem)">
+                            <a routerLink="/book-details/1" target="_blank" style="cursor: pointer;">
+                                <img src="https://editora.ufpe.br/public/presses/2/submission_907_910_coverImage_pt_BR_t.png"
+                                    alt="Ícone de um livro (imagem)">
+                            </a>
                         </div>
                         <div class="book-description">
                             <h2 class="title-categoria">Destacado</h2>

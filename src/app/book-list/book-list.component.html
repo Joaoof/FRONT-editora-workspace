@@ -1,0 +1,6 @@
+<app-navbar></app-navbar>
+<!-- <app-session></app-session> -->
+<router-outlet></router-outlet>
+<div *ngFor="let book of books">
+    <h2 (click)="onBookClick(book.id)">{{ book.title }}</h2>
+</div>

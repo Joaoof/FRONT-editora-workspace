@@ -5,14 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SessionComponent } from './session/session.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { BookDetailComponent } from './book-detail/book-detail.component';
+import { BookListComponent } from './book-list/book-list.component';
+import { MainLayoutComponent } from './main-layout/main-layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SessionComponent,
-    SidebarComponent
+    BookDetailComponent,
+    BookListComponent,
+    MainLayoutComponent
   ],
   imports: [
     BrowserModule,
