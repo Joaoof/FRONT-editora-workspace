@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 14px;
+    line-height: 1.43rem;
+    color: rgba(0, 0, 0, 0.87);
+}
+
 .title-mobile {
     margin-left: .857rem;
     /* margin-bottom: 1.43rem; */
@@ -45,6 +51,11 @@
     margin: 1.43rem 0;
 }
 
+.item-details {
+    margin-left: -1.43rem;
+    margin-right: -1.43rem;
+}
+
 .livro {
     border-top: 1px solid #ddd;
     padding: 1.43rem .714rem;
@@ -81,4 +92,49 @@ img {
     width: 100%;
     text-align: center;
     font-size: .742rem;
+}
+
+.item-date {
+    padding: 1.43rem .714rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-date .label {
+    margin: 0;
+    font-size: .93rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.item-date span {
+    line-height: 2rem;
+    font-size: .83rem;
+    font-weight: 400;
+}
+
+
+.item-categories {
+    padding: 1.43rem .174rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-categories .categoria-h2 {
+    margin: 10px;
+    font-size: .93rem;
+    font-weight: 10;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.item-categories a {
+    margin: 10px;
+    font-size: .93rem;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.item-copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .93rem;
+    padding: 1.43rem .714rem;
+    border-bottom: 1px solid #ddd;
 }

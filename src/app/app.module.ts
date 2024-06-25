@@ -8,6 +8,7 @@ import { SessionComponent } from './session/session.component';
 import { BookDetailComponent } from './book-detail/book-detail.component';
 import { BookListComponent } from './book-list/book-list.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainLayoutComponent } from './main-layout/main-layout.component';
     SessionComponent,
     BookDetailComponent,
     BookListComponent,
-    MainLayoutComponent
+    MainLayoutComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
