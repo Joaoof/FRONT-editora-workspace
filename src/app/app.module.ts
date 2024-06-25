@@ -9,6 +9,8 @@ import { BookDetailComponent } from './book-detail/book-detail.component';
 import { BookListComponent } from './book-list/book-list.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { CatalogoComponent } from './catalogo/catalogo.component';
+import { SessionCatalogoComponent } from './session-catalogo/session-catalogo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     BookDetailComponent,
     BookListComponent,
     MainLayoutComponent,
-    SidebarComponent
+    SidebarComponent,
+    CatalogoComponent,
+    SessionCatalogoComponent
   ],
   imports: [
     BrowserModule,

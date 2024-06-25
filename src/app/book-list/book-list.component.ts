@@ -9,10 +9,20 @@ import { Router } from '@angular/router';
 export class BookListComponent {
 
   books = [
-    { id: 1, title: 'Livro 1' },
-    { id: 2, title: 'Livro 2' },
-  ]
-
+    {
+      title: 'Book One',
+      author: 'Author One',
+      description: 'This is the description for Book One.',
+      coverImage: 'path/to/cover1.jpg'
+    },
+    {
+      title: 'Book Two',
+      author: 'Author Two',
+      description: 'This is the description for Book Two.',
+      coverImage: 'path/to/cover2.jpg'
+    },
+    // Adicione mais livros aqui
+  ];
   constructor(private router: Router) { }
 
   onBookClick(bookId: number): void {

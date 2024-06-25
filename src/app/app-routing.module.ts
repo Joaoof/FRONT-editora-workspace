@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BookListComponent } from './book-list/book-list.component';
 import { BookDetailComponent } from './book-detail/book-detail.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
-import { AppComponent } from './app.component';
+import { CatalogoComponent } from './catalogo/catalogo.component';
 
 const routes: Routes = [
   {
@@ -12,10 +12,11 @@ const routes: Routes = [
     children: [
       { path: '', component: MainLayoutComponent },
       { path: 'books', component: BookListComponent },
-      { path: 'books/:id', component: BookDetailComponent }
+      { path: 'books/:id', component: BookDetailComponent },
     ]
   },
-  { path: 'book-details/:id', component: BookDetailComponent } // Rota para a página de detalhes sem o layout principal
+  { path: 'book-details/:id', component: BookDetailComponent }, // Rota para a página de detalhes sem o layout principal
+  { path: 'books-catalogo', component: CatalogoComponent }
 ];
 
 @NgModule({

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
@@ -20,4 +20,9 @@ export class BookDetailComponent implements OnInit {
       this.router.navigate(['/books']);
     }
   }
+
+  @Input() title: string = "Física da Natureza";
+  @Input() author: string = "";
+  @Input() description: string = "";
+  @Input() coverImage: string = "";
 }
