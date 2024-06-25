@@ -4,6 +4,7 @@ import { BookListComponent } from './book-list/book-list.component';
 import { BookDetailComponent } from './book-detail/book-detail.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
+import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-pagamento.component';
 
 const routes: Routes = [
   {
@@ -16,7 +17,8 @@ const routes: Routes = [
     ]
   },
   { path: 'book-details/:id', component: BookDetailComponent }, // Rota para a página de detalhes sem o layout principal
-  { path: 'books-catalogo', component: CatalogoComponent }
+  { path: 'books-catalogo', component: CatalogoComponent },
+  { path: 'books-pagamento', component: FormasDePagamentoComponent }
 ];
 
 @NgModule({

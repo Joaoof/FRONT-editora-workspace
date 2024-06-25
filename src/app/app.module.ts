@@ -11,6 +11,7 @@ import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { SessionCatalogoComponent } from './session-catalogo/session-catalogo.component';
+import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-pagamento.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SessionCatalogoComponent } from './session-catalogo/session-catalogo.co
     MainLayoutComponent,
     SidebarComponent,
     CatalogoComponent,
-    SessionCatalogoComponent
+    SessionCatalogoComponent,
+    FormasDePagamentoComponent
   ],
   imports: [
     BrowserModule,
