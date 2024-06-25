@@ -17,6 +17,7 @@ body {
     margin: 0 auto;
     padding-left: .714rem;
     padding-right: .714rem;
+    /* padding: .714rem; */
 }
 
 .navigation {
@@ -64,4 +65,41 @@ a {
     font-weight: 700;
     font-size: 1.58rem;
 
+}
+
+.content .qtd-livros {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 2.5rem;
+    /* float: right; */
+    padding: .714rem 0;
+    font-size: .93rem;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    text-decoration: none;
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.pagination::after {
+    clear: both;
+}
+
+.pagination::after {
+    content: " ";
+    display: table;
+}
+
+.pagination::before {
+    content: " ";
+    display: table;
 }
