@@ -12,6 +12,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { SessionCatalogoComponent } from './session-catalogo/session-catalogo.component';
 import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-pagamento.component';
+import { SubmissoesComponent } from './submissoes/submissoes.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-paga
     CatalogoComponent,
     SessionCatalogoComponent,
     FormasDePagamentoComponent,
-    SidebarComponent
+    SidebarComponent,
+    SubmissoesComponent
   ],
   imports: [
     BrowserModule,
