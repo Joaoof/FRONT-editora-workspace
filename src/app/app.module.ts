@@ -9,12 +9,9 @@ import { BookDetailComponent } from './book-detail/book-detail.component';
 import { BookListComponent } from './book-list/book-list.component';
 import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-<<<<<<< HEAD
 import { CatalogoComponent } from './catalogo/catalogo.component';
 import { SessionCatalogoComponent } from './session-catalogo/session-catalogo.component';
 import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-pagamento.component';
-=======
->>>>>>> fa93404 (Your commit message)
 
 @NgModule({
   declarations: [
@@ -24,14 +21,11 @@ import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-paga
     BookDetailComponent,
     BookListComponent,
     MainLayoutComponent,
-<<<<<<< HEAD
     SidebarComponent,
     CatalogoComponent,
     SessionCatalogoComponent,
-    FormasDePagamentoComponent
-=======
+    FormasDePagamentoComponent,
     SidebarComponent
->>>>>>> fa93404 (Your commit message)
   ],
   imports: [
     BrowserModule,
