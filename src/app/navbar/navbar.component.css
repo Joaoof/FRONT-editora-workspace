@@ -9,7 +9,11 @@ header {
 }
 
 .logo img {
+<<<<<<< HEAD
     max-height: 2.5rem;
+=======
+    max-height: 3rem;
+>>>>>>> fa93404 (Your commit message)
 }
 
 .nav-bar {
