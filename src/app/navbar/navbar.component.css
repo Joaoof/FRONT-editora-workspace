@@ -3,14 +3,33 @@
     margin: 0;
 }
 
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.43rem;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+}
+
+header {
+    display: block;
+}
+
+.estrutura-page .site-name img {
+    display: inline-block;
+    margin: .357rem;
+    margin-bottom: .357rem;
+    padding: 0;
+}
+
+.estrutura-head {}
+
 header {
     background-color: #2969bd;
     /* box-shadow: 0px 3px 10px #1c4883; */
 }
 
-.logo img {
-
-    max-height: 2.5rem;
+.site-name img {
     max-height: 3rem;
 }
 
@@ -78,12 +97,14 @@ header {
 @media screen and (max-width: 730px) {
     .nav-bar {
         display: flex;
-        /* width: 100%; */
+        width: 100%;
+        position: absolute;
         justify-content: space-between;
-        gap: 1rem;
+        /* gap: 2rem; */
+        top: 0;
         margin: 0 auto;
-        padding-left: .714rem;
-        padding-right: .714rem;
+        /* padding-left: 22.714rem; */
+        /* padding-right: 3.914rem; */
     }
 
     .nav-item {
@@ -100,7 +121,7 @@ header {
 
     .mobile-menu-icon img {
         margin-top: 0.5rem;
-        margin-right: 0.5rem;
+        margin-right: 1.5rem;
     }
 
     .mobile-menu-icon button {
@@ -127,5 +148,109 @@ header {
 
     .open {
         display: block;
+    }
+}
+
+/* DESKTOP
+
+/* Estilos específicos para desktop */
+@media (min-width: 992px) {
+
+    html,
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.87);
+        background: #fff;
+    }
+
+    .site-name {
+        width: auto;
+    }
+
+    .site-name {
+        position: relative;
+        left: auto;
+        right: auto;
+        padding: 0;
+        white-space: normal;
+        font-size: 2rem;
+        background: transparent;
+        overflow: visible;
+    }
+
+    .site-name {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: left;
+        text-overflow: ellipsis;
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    .site-name .is-image img {
+        max-height: 80px;
+    }
+
+    .estrutura-header {}
+
+    .site-name .is-image {
+        display: inline-block;
+        margin-top: .357rem;
+        margin-bottom: .357rem;
+        padding: 0;
+    }
+
+    .site-name .is-image img {
+        max-height: 80px;
+        display: block;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .nav-bar {
+        position: static;
+        padding: 0;
+        width: 100%;
+    }
+
+    .nav-list {
+        display: flex;
+        /* Mostra a nav-list no desktop */
+        align-items: center;
+    }
+
+    .nav-list ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .nav-item {
+        display: block;
+        margin: 0 15px;
+    }
+
+    .mobile-menu-icon {
+        display: none;
+        /* Esconde o ícone do menu mobile no desktop */
+    }
+
+    .mobile-menu {
+        display: none;
+        /* Esconde o menu mobile no desktop */
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo h1 {
+        color: #FFF;
     }
 }

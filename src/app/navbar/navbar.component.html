@@ -7,48 +7,52 @@
     <title>Document</title>
 </head>
 
-<body>
-    <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <a routerLink="/"><img src="../../assets/logo.png" alt=""></a>
+<body class="page_angular">
+    <div class="estrutura-page">
+        <header class="estrutura-header">
+            <div class="site-name">
+                <a routerLink="/" class="is-image"><img src="../../assets/logo.png" alt=""></a>
             </div>
-            <div class="nav-list">
+            <nav class="nav-bar">
+                <!-- <div class="logo">
+                </div> -->
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a routerLink="#" class="nav-link">Catálogo</a></li>
+                        <li class="nav-item"><a routerLink="#" class="nav-link">Formas de Pagamento</a></li>
+                        <li class="nav-item"><a routerLink="#" class="nav-link">Submissões</a></li>
+                        <li class="nav-item"><a routerLink="#" class="nav-link">Sobre a editora</a></li>
+                        <li class="nav-item"><a routerLink="#" class="nav-link">Equipe editorial</a></li>
+                        <li class="nav-item"><a routerLink="#" class="nav-link">Contato</a></li>
+                        <li class="nav-item"><a routerLink="#" class="nav-link">Site Institucional</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="pesquisar">
+                    <form action="" method="post">
+                        <label for="busca"><img src="../../assets//8442061-pesquisa-icone-glifo-simbolo-lupa-vetor.jpg"
+                                alt=""></label>
+                        <input type="search" id="busca" name="q" style="height: 1.25rem;">
+                        <button type="submit" style="height: 1.25rem;">OK</button>
+                    </form>
+                </div> -->
+                <!--MOBILEEEEEEEEEEEEEEEEEEEEEEE-->
+                <div class="mobile-menu-icon">
+                    <button (click)="menuShow()"><img src="../../assets/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile-menu" #menuMobile>
                 <ul>
-                    <li class="nav-item"><a routerLink="#" class="nav-link">Catálogo</a></li>
-                    <li class="nav-item"><a routerLink="#" class="nav-link">Formas de Pagamento</a></li>
-                    <li class="nav-item"><a routerLink="#" class="nav-link">Submissões</a></li>
+                    <li class="nav-item"><a routerLink="/books-catalogo" class="nav-link">Catálogo</a></li>
+                    <li class="nav-item"><a routerLink="/books-pagamento" class="nav-link">Formas de Pagamento</a></li>
+                    <li class="nav-item"><a routerLink="/books-submissoes" class="nav-link">Submissões</a></li>
                     <li class="nav-item"><a routerLink="#" class="nav-link">Sobre a editora</a></li>
                     <li class="nav-item"><a routerLink="#" class="nav-link">Equipe editorial</a></li>
                     <li class="nav-item"><a routerLink="#" class="nav-link">Contato</a></li>
                     <li class="nav-item"><a routerLink="#" class="nav-link">Site Institucional</a></li>
                 </ul>
             </div>
-            <!-- <div class="pesquisar">
-                <form action="" method="post">
-                    <label for="busca"><img src="../../assets//8442061-pesquisa-icone-glifo-simbolo-lupa-vetor.jpg"
-                            alt=""></label>
-                    <input type="search" id="busca" name="q" style="height: 1.25rem;">
-                    <button type="submit" style="height: 1.25rem;">OK</button>
-                </form>
-            </div> -->
-            <!--MOBILEEEEEEEEEEEEEEEEEEEEEEE-->
-            <div class="mobile-menu-icon">
-                <button (click)="menuShow()"><img src="../../assets/menu_white_36dp.svg" alt=""></button>
-            </div>
-        </nav>
-        <div class="mobile-menu" #menuMobile>
-            <ul>
-                <li class="nav-item"><a routerLink="/books-catalogo" class="nav-link">Catálogo</a></li>
-                <li class="nav-item"><a routerLink="/books-pagamento" class="nav-link">Formas de Pagamento</a></li>
-                <li class="nav-item"><a routerLink="/books-submissoes" class="nav-link">Submissões</a></li>
-                <li class="nav-item"><a routerLink="#" class="nav-link">Sobre a editora</a></li>
-                <li class="nav-item"><a routerLink="#" class="nav-link">Equipe editorial</a></li>
-                <li class="nav-item"><a routerLink="#" class="nav-link">Contato</a></li>
-                <li class="nav-item"><a routerLink="#" class="nav-link">Site Institucional</a></li>
-            </ul>
-        </div>
-    </header>
+        </header>
+    </div>
 </body>
 
 </html>
