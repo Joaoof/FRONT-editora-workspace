@@ -215,7 +215,7 @@ header {
     }
 
     .site-name .is-image img {
-        max-height: 80px;
+        max-height: 50px;
         display: block;
         max-width: 100%;
         width: auto;
@@ -237,6 +237,8 @@ header {
     }
 
     .pkp_site_nav_menu .pkp_nav_list {
+        display: flex;
+        justify-content: center;
         padding-left: 0;
         margin-left: 0;
     }
