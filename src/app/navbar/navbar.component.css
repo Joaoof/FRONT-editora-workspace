@@ -118,13 +118,20 @@ header {
     }
 
     .mobile-menu-icon {
-        display: block;
+        display: flex;
+        position: relative;
     }
 
     .mobile-menu-icon img {
-        position: relative;
-        bottom: 50px;
-        margin-left: 21.5rem;
+        /* display: inline-block; */
+        /* margin: .357rem; */
+        /* margin-left: 22rem; */
+        /* padding: 0; */
+        position: absolute;
+        top: -53px;
+        right: 5px;
+        width: 36px;
+        height: 36px;
     }
 
     .mobile-menu-icon button {
@@ -282,6 +289,7 @@ header {
 
     .mobile-menu-icon {
         display: none;
+        position: relative;
         /* Esconde o ícone do menu mobile no desktop */
     }
 
