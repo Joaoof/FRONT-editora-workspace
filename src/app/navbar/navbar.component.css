@@ -237,10 +237,11 @@ header {
     }
 
     .pkp_site_nav_menu .pkp_nav_list {
-        display: flex;
-        justify-content: center;
-        padding-left: 0;
-        margin-left: 0;
+        display: inline-block;
+        padding: 0 135px;
+        /* justify-content: baseline; */
+        /* padding-left: 0; */
+        /* margin-left: 0; */
     }
 
     .pkp_site_nav_menu ul {
