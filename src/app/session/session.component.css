@@ -62,7 +62,7 @@
     /* box-shadow: 0 5px 10px rgba(0, 0, 0, .2); */
     /* border-radius: 5px; */
     background: #fff;
-    padding: 40px 20px;
+    padding: 43.75px 20px;
     /* border: solid 0.5px #a19a9ab6; */
 }
 
@@ -193,7 +193,7 @@
         /* box-shadow: 0 5px 10px rgba(0, 0, 0, .2); */
         /* border-radius: 5px; */
         background: #fff;
-        padding: 40px 20px;
+        /* padding: 40px 20px; */
         border-top: solid 0.5px #a19a9ab6;
     }
 
@@ -243,12 +243,12 @@
     }
 
     .container {
-        width: 860px;
+        width: 1160px;
         float: left;
         /* display: grid; */
         /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
         /* gap: 20px; */
-        padding: 0 2.143rem 6.429rem;
+        padding: 0 0.143rem 1.429rem;
         /* margin-top: 2rem; */
         /* padding: 15px 9%; */
         /* padding-bottom: 5%; */
@@ -270,7 +270,7 @@
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
-        aspect-ratio: 1 / 1;
+        /* aspect-ratio: 1 / 1; */
         /* Mantém a proporção de 1:1 (altura igual à largura) */
         /* Cria colunas com tamanho mínimo de 250px */
         /* width: 100%;
@@ -283,11 +283,11 @@
         margin: 0;
         padding: 0;
         border-bottom: none;
-        padding: 2.143rem;
+        /* padding: 2.143rem; */
         border-top: none;
-        position: relative;
-        float: left;
-        width: 50%;
+        /* position: relative; */
+        /* float: left; */
+        /* width: 50%; */
     }
 
     .box .title-categoria {
@@ -305,8 +305,9 @@
 
     .box-container .box img {
         display: block;
-        margin: 0 0 .914rem;
+        margin: 0 20px .914rem;
         width: auto;
+        float: left;
         /* height: auto; */
         max-width: 10em;
         max-height: 20em;
@@ -338,11 +339,11 @@
         height: 100%;
         /* height: max-content; */
         background: #fff;
-        padding: 40px 20px;
+        /* padding: 40px 20px; */
         /* border-left: solid 0.5px #a19a9ab6; */
         /* border: solid 0.5px #a19a9ab6; */
         border-top: solid 0.5px #a19a9ab6;
-        border-right: solid 0.5px #a19a9ab6;
+        border-left: solid 0.5px #a19a9ab6;
     }
 
     .box-container {
