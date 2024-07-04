@@ -237,8 +237,9 @@ header {
     }
 
     .pkp_site_nav_menu .pkp_nav_list {
-        display: inline-block;
-        padding: 0 135px;
+        display: flex;
+        padding: 0px 101px;
+        gap: 20px;
         /* justify-content: baseline; */
         /* padding-left: 0; */
         /* margin-left: 0; */
