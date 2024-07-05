@@ -246,7 +246,7 @@
         width: 1300px;
         position: relative;
         float: left;
-        left: -9px;
+        left: 20px;
         margin: 0px 114px;
         padding: 1rem;
     }
@@ -353,7 +353,7 @@
         /* margin-left: 10rem; */
         /* margin-top: 0px; */
         word-wrap: break-word;
-        font-size: 0.93rem;
+        font-size: 0.83rem;
     }
 
     .box-container .box {
