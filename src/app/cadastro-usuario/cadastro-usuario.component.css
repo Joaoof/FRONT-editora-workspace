@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.43rem;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #fff;
+}
+
+.pkp_structure_main {
+    padding: .714rem;
+}
+
+.pkp_structure_main h1 {
+    margin: -1.857rem 0.5rem .43rem;
+    font-size: 1.714rem;
+    line-height: 2.143rem;
+    font-weight: 700;
+}
+
+.pkp_structure_main .page h1 {
+    margin-top: 0;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation ol {
+    margin-bottom: 2.143rem;
+    padding: 1.357rem 15px;
+    line-height: 1.43rem;
+    font-size: .93rem;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+
+a {
+    color: #006798;
+    background-color: transparent;
+}
+
+.navigation a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navigation .separador {
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0 .5rem;
+}
+
+.navigation .current span {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.cmp_form fieldset {
+    margin: 0 0 1.43rem;
+    padding: 0;
+    /* border: none; */
+}
+
+.pkp_structure_main .cmp_form legend {
+    margin-bottom: .714rem;
+    font-size: 1.143rem;
+    font-weight: 700;
+    line-height: 1.43rem;
+}
+
+.pkp_structure_main cmp_form .fields>div {
+    position: relative;
+    padding-bottom: 2.143rem;
+}
+
+.pkp_structure_main .cmp_form label {
+    display: block;
+    cursor: pointer;
+}
+
+.pkp_structure_main .cmp_form label {
+    display: flex;
+    font-size: .93rem;
+    font-style: italic;
+}
+
+.cmp_form .label .required {
+    color: #ff4040;
+}
+
+cmp_form input[type="text"],
+.cmp_form input[type="email"],
+.cmp_form input[type="password"],
+.cmp_form input[type="url"],
+.cmp_form input[type="tel"],
+.cmp_form select,
+.cmp_form textarea {
+    padding: 0 .5em;
+    width: 100%;
+    height: calc(2.143rem - 2px);
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-size: .93rem;
+    line-height: calc(2.143rem - 2px);
+}
+
+button,
+input {
+    overflow: visible;
+}

@@ -13,6 +13,7 @@ import { CatalogoComponent } from './catalogo/catalogo.component';
 import { SessionCatalogoComponent } from './session-catalogo/session-catalogo.component';
 import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-pagamento.component';
 import { SubmissoesComponent } from './submissoes/submissoes.component';
+import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SubmissoesComponent } from './submissoes/submissoes.component';
     SessionCatalogoComponent,
     FormasDePagamentoComponent,
     SidebarComponent,
-    SubmissoesComponent
+    SubmissoesComponent,
+    CadastroUsuarioComponent
   ],
   imports: [
     BrowserModule,
