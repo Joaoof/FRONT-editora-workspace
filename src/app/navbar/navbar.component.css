@@ -159,6 +159,10 @@ header {
     .open {
         display: block;
     }
+
+    .pkp_navigation_user {
+        display: none;
+    }
 }
 
 /* DESKTOP
@@ -222,6 +226,30 @@ header {
         height: auto;
     }
 
+    .pkp_navigation_user {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .pkp_navigation_user li {
+        position: relative;
+        display: inline-block;
+        left: 100rem;
+        margin-left: 25px;
+        bottom: 4rem;
+        /* flex-direction: row-reverse; */
+        text-align: right;
+    }
+
+    .pkp_navigation_user a {
+        /* display: inline-block; */
+        color: #FFF;
+        padding-top: .357rem;
+        padding-bottom: .357rem;
+        line-height: 1.43rem;
+    }
+
     .pkp_site_nav_menu {
         display: block;
         position: static;
@@ -238,11 +266,9 @@ header {
 
     .pkp_site_nav_menu .pkp_nav_list {
         display: flex;
-        padding: 0px 101px;
-        gap: 20px;
-        /* justify-content: baseline; */
-        /* padding-left: 0; */
-        /* margin-left: 0; */
+        padding: 6px 168px;
+        gap: 6px;
+        margin: 0 0 -20px;
     }
 
     .pkp_site_nav_menu ul {
