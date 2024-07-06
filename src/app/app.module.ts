@@ -14,6 +14,7 @@ import { SessionCatalogoComponent } from './session-catalogo/session-catalogo.co
 import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-pagamento.component';
 import { SubmissoesComponent } from './submissoes/submissoes.component';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
+import { NavigationLocationComponent } from './navigation-location/navigation-location.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.co
     FormasDePagamentoComponent,
     SidebarComponent,
     SubmissoesComponent,
-    CadastroUsuarioComponent
+    CadastroUsuarioComponent,
+    NavigationLocationComponent
   ],
   imports: [
     BrowserModule,

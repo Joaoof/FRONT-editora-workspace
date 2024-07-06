@@ -1,0 +1,40 @@
+body {
+    background: #0c0ce94d;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation ol {
+    margin-bottom: 2.143rem;
+    padding: 1.357rem 15px;
+    line-height: 1.43rem;
+    font-size: .93rem;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+
+a {
+    color: #006798;
+    background-color: transparent;
+}
+
+.navigation a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navigation .separador {
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0 .5rem;
+}
+
+.navigation .current span {
+    color: rgba(0, 0, 0, 0.54);
+}
