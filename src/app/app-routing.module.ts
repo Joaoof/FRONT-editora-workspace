@@ -7,6 +7,7 @@ import { CatalogoComponent } from './catalogo/catalogo.component';
 import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-pagamento.component';
 import { SubmissoesComponent } from './submissoes/submissoes.component';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {
@@ -22,7 +23,8 @@ const routes: Routes = [
   { path: 'books-catalogo', component: CatalogoComponent },
   { path: 'books-pagamento', component: FormasDePagamentoComponent },
   { path: 'books-submissoes', component: SubmissoesComponent },
-  { path: 'cadastro-usuario', component: CadastroUsuarioComponent }
+  { path: 'cadastro-usuario', component: CadastroUsuarioComponent },
+  { path: 'login', component: LoginComponent }
 ];
 
 @NgModule({

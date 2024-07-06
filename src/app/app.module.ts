@@ -15,6 +15,7 @@ import { FormasDePagamentoComponent } from './formas-de-pagamento/formas-de-paga
 import { SubmissoesComponent } from './submissoes/submissoes.component';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
 import { NavigationLocationComponent } from './navigation-location/navigation-location.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NavigationLocationComponent } from './navigation-location/navigation-lo
     SidebarComponent,
     SubmissoesComponent,
     CadastroUsuarioComponent,
-    NavigationLocationComponent
+    NavigationLocationComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

@@ -5,11 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './navigation-location.component.html',
   styleUrls: ['./navigation-location.component.css']
 })
-export class NavigationLocationComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class NavigationLocationComponent {
+  labelText: string = 'Cadastro';
+  labelText2: string = 'Login';
 }
