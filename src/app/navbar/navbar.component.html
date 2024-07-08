@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body class="page_angular">
@@ -24,6 +26,19 @@
                             <li class="nav-item"><a routerLink="#" class="nav-link">Equipe editorial</a></li>
                             <li class="nav-item"><a routerLink="#" class="nav-link">Contato</a></li>
                             <li class="nav-item"><a routerLink="#" class="nav-link">Site Institucional</a></li>
+                            <div class="box-busca">
+                                <div class="search-box">
+                                    <form method="post" action="#">
+                                        <input type="text" class="search-box-input" name="busca"
+                                            placeholder="Faça sua Pesquisa">
+                                        <button class="search-box-button"><i class="fas fa-search"
+                                                style="font-size: 20px; position: relative; bottom: -12px; left: 12px; color: white;"></i></button>
+
+                                    </form>
+
+                                </div><!-- Search -->
+
+                            </div><!--Box Busca-->
                         </ul>
                         <ul class="pkp_navigation_user">
                             <li class="profile"><a routerLink="/cadastro-usuario">Cadastro</a></li>
@@ -55,6 +70,15 @@
                     <li class="nav-item"><a routerLink="#" class="nav-link">Site Institucional</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Cadastro</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Acesso</a></li>
+                    <div class="search-box">
+                        <form method="post" action="#">
+                            <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
+                            <button class="search-box-button"><i class="fas fa-search"
+                                    style="font-size: 20px; position: relative; bottom: -12px; left: 12px; color: white;"></i></button>
+
+                        </form>
+
+                    </div><!-- Search -->
                 </ul>
             </div>
         </header>
